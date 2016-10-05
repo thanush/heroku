@@ -15,7 +15,8 @@ class MinifyController extends Controller
     $data = array(
         'input' => $css,
     );
-
+    // var_dump();
+    // dd($data);
     // init the request, set some info, send it and finally close it
     $ch = curl_init($url);
 
